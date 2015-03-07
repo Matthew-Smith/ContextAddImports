@@ -1,5 +1,35 @@
 {
-    "default": {
+    // if set to true, it enables debug output into the sublime console
+    "debug": false,
+
+    // Choose the string that will appear inside the comment before the global values
+    // ex: "globalString": "global" -> /*global ..., ..., ... */
+    //     "globalString": "accessible" -> /*accesible ..., ..., ... */
+    "globalString": "global",
+
+    // choose the comment style for the global tag to appear in
+    "commentStyle": {
+        "begin": "/*",
+        "end": " */",
+        "onePerLine": false
+    },
+
+    // The seperator that will be used in between the defined globals
+    "seperator": ",",
+
+    // Have a popup to decide to add the global tag if it isn't already present
+    "notifyIfMissing": false,
+
+    // Have a popup to decide if ': true', ': false' should be added to the entry
+    "indicateAssignment": true,
+
+    // Adds a new line after the global comment
+    "addNewLine": true,
+
+    //
+    "scrollGlobalsIntoView": false,
+
+    "js": {
         // if set to true, it enables debug output into the sublime console
         "debug": false,
 
@@ -11,7 +41,8 @@
         // choose the comment style for the global tag to appear in
         "commentStyle": {
             "begin": "/*",
-            "end": " */"
+            "end": " */",
+            "onePerLine": false
         },
 
         // The seperator that will be used in between the defined globals
@@ -24,6 +55,9 @@
         "indicateAssignment": true,
 
         // Adds a new line after the global comment
-        "addNewLine": true
+        "addNewLine": true,
+
+        //
+        "scrollGlobalsIntoView": false
     }
 }
