@@ -1,5 +1,9 @@
 import sublime, sublime_plugin
 
-class add_to_gplobalCommand(sublime_plugin.TextCommand):
+class add_to_globalCommand(sublime_plugin.TextCommand):
+
+    def getComment():
+        return '/*global */'
+
     def run(self, edit):
-        self.view.insert(edit, 0, "/*global */\n")
+        self.view.insert(edit, 0, "/*global */")
