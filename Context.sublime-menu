@@ -1,0 +1,7 @@
+[
+    {
+        "id": "addToGlobals",
+        "caption": "Add selected text to Global",
+        "command": "add_to_global", "args": {}
+    }
+]
