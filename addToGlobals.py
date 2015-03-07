@@ -1,4 +1,5 @@
-import sublime, sublime_plugin
+import sublime
+import sublime_plugin
 
 class add_to_globalCommand(sublime_plugin.TextCommand):
 

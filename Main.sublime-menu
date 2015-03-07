@@ -8,9 +8,7 @@
                 "caption": "Add selected text to Global"
             }
         ]
-
     },
-
     {
         "caption": "Preferences",
         "id": "preferences",
