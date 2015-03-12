@@ -22,11 +22,14 @@
 
     // Have a popup to decide if ': true', ': false' should be added to the entry
     "indicateAssignment": true,
+    // If indicateAssignment is false, this will decide if a default assignment will be set
+    // false, "true", "false"
+    "defaultAssignment": false,
 
     // Adds a new line after the global comment
     "addNewLine": true,
 
-    //
+    // Scroll the global section at the top of the file into view
     "scrollGlobalsIntoView": false,
 
     "js": {
@@ -53,6 +56,9 @@
 
         // Have a popup to decide if ': true', ': false' should be added to the entry
         "indicateAssignment": true,
+        // If indicateAssignment is false, this will decide if a default assignment will be set
+        // false, "true", "false"
+        "defaultAssignment": false,
 
         // Adds a new line after the global comment
         "addNewLine": true,
