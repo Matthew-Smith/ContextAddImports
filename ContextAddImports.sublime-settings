@@ -1,0 +1,29 @@
+{
+    // if set to true, it enables debug output into the sublime console
+    "debug": false,
+
+    // Scroll the global section at the top of the file into view
+    "scrollIntoView": false,
+
+    // add to top or bottom
+    "addToTop": false,
+
+    "syntaxes": {
+        "JavaScript": "js",
+        "ECMAScript": "js",
+        "Python": "py"
+    },
+
+    "js": {
+        "join": false,
+        "begin": "/*global ",
+        "end": "*/",
+        "separator": ","
+    },
+    "py": {
+        "join": false,
+        "begin": "import ",
+        "end": "",
+        "separator": ","
+    }
+}
