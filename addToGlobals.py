@@ -4,7 +4,7 @@ import re
 
 SETTINGS_FILE = "ContextAddImports.sublime-settings"
 
-class add_to_globalCommand(sublime_plugin.TextCommand):
+class AddToImportsCommand(sublime_plugin.TextCommand):
 
     def getSettings(self):
         return sublime.load_settings(SETTINGS_FILE)

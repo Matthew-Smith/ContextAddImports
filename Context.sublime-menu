@@ -1,7 +1,7 @@
 [
     {
-        "id": "addToGlobals",
-        "caption": "Add selected text to Global",
-        "command": "add_to_global", "args": {}
+        "id": "addToImports",
+        "caption": "Add selected text to file imports",
+        "command": "add_to_imports", "args": {}
     }
 ]

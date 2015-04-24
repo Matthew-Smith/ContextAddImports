@@ -4,8 +4,8 @@
         "children":
         [
             {
-                "id": "addToGlobals",
-                "caption": "Add selected text to Global"
+                "id": "ContextAddImports",
+                "caption": "Add selected text to file imports"
             }
         ]
     },
@@ -22,21 +22,21 @@
                 "children":
                 [
                     {
-                        "caption": "addToGlobals",
+                        "caption": "ContextAddImports",
                         "children":
                         [
                             {
                                 "caption": "Settings – Default",
                                 "command": "open_file", "args":
                                 {
-                                    "file": "${packages}/addToGlobals/addToGlobals.sublime-settings"
+                                    "file": "${packages}/ContextAddImports/ContextAddImports.sublime-settings"
                                 }
                             },
                             {
                                 "caption": "Settings – User",
                                 "command": "open_file", "args":
                                 {
-                                    "file": "${packages}/User/addToGlobals.sublime-settings"
+                                    "file": "${packages}/User/ContextAddImports.sublime-settings"
                                 }
                             },
                             {
@@ -46,7 +46,7 @@
                                 "caption": "Key Bindings – Default",
                                 "command": "open_file", "args":
                                 {
-                                    "file": "${packages}/addToGlobals/Default (OSX).sublime-keymap",
+                                    "file": "${packages}/ContextAddImports/Default (OSX).sublime-keymap",
                                     "platform": "OSX"
                                 }
                             },
@@ -62,7 +62,7 @@
                                 "caption": "Key Bindings – Default",
                                 "command": "open_file", "args":
                                 {
-                                    "file": "${packages}/addToGlobals/Default (Linux).sublime-keymap",
+                                    "file": "${packages}/ContextAddImports/Default (Linux).sublime-keymap",
                                     "platform": "Linux"
                                 }
                             },
@@ -78,7 +78,7 @@
                                 "caption": "Key Bindings – Default",
                                 "command": "open_file", "args":
                                 {
-                                    "file": "${packages}/addToGlobals/Default (Windows).sublime-keymap",
+                                    "file": "${packages}/ContextAddImports/Default (Windows).sublime-keymap",
                                     "platform": "Windows"
                                 }
                             },
