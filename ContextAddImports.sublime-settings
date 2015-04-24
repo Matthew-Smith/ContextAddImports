@@ -18,12 +18,12 @@
         "join": false,
         "begin": "/*global ",
         "end": "*/",
-        "separator": ","
+        "separator": ", "
     },
     "py": {
         "join": false,
         "begin": "import ",
         "end": "",
-        "separator": ","
+        "separator": ", "
     }
 }
